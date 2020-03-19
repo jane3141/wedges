@@ -1,0 +1,47 @@
+<html>
+	<meta charset="UTF-8">
+	<head>
+		<title>Wedges</title>
+		<link rel="stylesheet" type="text/css" href="wedges.css">
+		<link rel="icon" href="pic.png" type="image/x-icon"/>	
+	</head>
+	
+	<body>
+		
+		<div class="megadiv">
+
+			<div class="canvasdiv">
+				<canvas id="canvas" width="500" height="500"></canvas><br/>
+				<span id="arrow">&#x2191</span><span id="info">You should be able to right-click this picture and select "save image" to save this picture.</span>
+
+			</div>
+
+			<div class="inputdiv">
+			<table>
+				<tr>	
+					<td class="col1">Fractions</td><td><input type="text" value="1/3 1/4 2/7" id="numinput" class="textinput"></input></td>
+				</tr>
+				<tr>
+					<td class="col1">Colors</td><td><input type="text" value="lightblue, hotpink, crimson" id="fraccolorsinput" class="textinput"></input></td>
+				</tr>
+				<tr>
+					<td>Tick marks</td><td><input type="text" value="" id="tickinput" class="textinput"></input></td>
+				</tr>
+				<tr>
+					<td>Start angle (degrees)</td><td><input type="text" value="0" id="angleinput" class="textinput"></input></td>
+				</tr>
+				<tr>
+					<td>Orientation</td><td><select value="0" id="orientationselect" class="textinput"><option value="CW">CW</option><option value="CCW">CCW</option></select></td>
+				</tr>
+
+
+			</table><br/>
+			<a href="https://www.w3schools.com/colors/colors_names.asp">List of colors.</a><br/>
+			<a href="https://gitlab.com/jane314/wedges">Source code.</a><br/><br/>
+			</div>
+
+		</div>
+	</body>
+	<script src="colors.js"></script>
+	<script src="wedges.js"></script>
+</html>
